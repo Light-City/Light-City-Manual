@@ -11,4 +11,5 @@ Welcome to Light-City's Manual!
    :caption: Contents:
    
    how_to_be_a_rich_man
+   Allegrograph
 
