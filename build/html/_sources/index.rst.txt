@@ -8,10 +8,13 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :glob:
    
    preface
    forward
+   chapters/*
+   aboutme
+   
    
 
 
