@@ -3,13 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Light-City's Manual!
+光城手册
 =======================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
-   how_to_be_a_rich_man
-   Allegrograph
+   preface
+   forward
+   
+
 
