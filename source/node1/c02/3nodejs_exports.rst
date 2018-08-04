@@ -4,8 +4,9 @@
 exportst与module.exports
 ========================
 
-1.exports和module.exports指向同一对象，两者随便添加属性/方法，都会接收到变化，因为都指向同一个对象。故--->结果相同
+1.exports和module.exports指向同一对象，
 ------------------------------------------------------------------------------------------------------------------
+两者随便添加属性/方法，都会接收到变化，因为都指向同一个对象。故--->结果相同
 
 .. code:: javascript
 
@@ -14,8 +15,9 @@ exportst与module.exports
     console.log(exports)  // { tfunc: [Function], name: 'zha' }
     console.log(module.exports) // { tfunc: [Function], name: 'zha' }
 
-2.exports直接赋值,此时切断了exports同module.exports一同指向对象的引用，真正输出的是module.exports指向的对象，而exports赋值无效
+2.exports直接赋值
 ------------------------------------------------------------------------------------------------------------------------------
+此时切断了exports同module.exports一同指向对象的引用，真正输出的是module.exports指向的对象，而exports赋值无效
 
 .. code:: javascript
 
@@ -25,8 +27,9 @@ exportst与module.exports
     console.log(exports) // [Function: tfunc]
     console.log(module.exports) // { tfunc: [Function], name: 'wan' }
 
-3.修正上述两者输出,注意下面代码不能同时运行，两部分切换调整输出，看结果
+3.修正上述两者输出
 -----------------------------------------------------------------------
+注意下面代码不能同时运行，两部分切换调整输出，看结果
 
 .. code:: javascript
 
@@ -39,8 +42,9 @@ exportst与module.exports
     // module.exports =  exports
     // console.log(module.exports)  // [Function: tfunc]
 
-4.module.exports直接赋值，同2一样切断了exports的引用。上述的module.exports值会被现在的对象覆盖
+4.module.exports直接赋值
 ----------------------------------------------------------------------------------------------
+同2一样切断了exports的引用。上述的module.exports值会被现在的对象覆盖
 
 .. code:: javascript
 
