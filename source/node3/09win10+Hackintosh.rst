@@ -1,6 +1,6 @@
 |image0|
 
-单硬盘安装win10及Hackintosh双系统
+第九节:单硬盘安装win10及Hackintosh双系统
 =================================
 
 1.gpt+efi安装win10
