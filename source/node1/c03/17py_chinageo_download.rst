@@ -149,7 +149,7 @@ Unavailable)，下载出来的图片也无法查看，那么就要解决这个�
 3.项目地址
 ----------
 
-`戳我star!!! <https://github.com/Light-City/py_scrapy/blob/master/sc_scr_down.py>`__
+`戳我star!!! <https://github.com/Light-City/py_scrapy/blob/master/scrapy_downloadexample/sc_scr_down.py>`__
 
 4.参考文章
 ----------
