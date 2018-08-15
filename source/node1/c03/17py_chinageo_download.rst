@@ -39,8 +39,6 @@ Unavailable)，下载出来的图片也无法查看，那么就要解决这个�
 
 先通过matplotlib.image的imread方法读取图片,再通过matplotlib.pyplot绘制一个figure，然后在绘制子图放入figure中即可。
 
-这里使用
-
 2.完整代码
 ----------
 
@@ -141,14 +139,19 @@ Unavailable)，下载出来的图片也无法查看，那么就要解决这个�
                 _img = mping.imread('./img/%s' % image_name)
             if i==1:
                 plt.figure()
-            plt.subplot(2,3,i)
+            plt.subplot(2,3,i) # 2行三列显示在第i个位置
             plt.imshow(_img)
             plt.title(image_name)
             plt.axis('off')
             i=i+1
     plt.show()
 
-3.参考文章
+3.项目地址
+----------
+
+`戳我star!!! <https://github.com/Light-City/py_scrapy/blob/master/sc_scr_down.py>`__
+
+4.参考文章
 ----------
 
 `Requests开发接口 <http://docs.python-requests.org/zh_CN/latest/api.html#requests.cookies.RequestsCookieJar>`__
