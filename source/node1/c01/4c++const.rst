@@ -1,10 +1,10 @@
 .. figure:: http://p20tr36iw.bkt.clouddn.com/c++_const.png
    :alt: 
-   
+
 .. raw:: html
 
    <!--more-->
-   
+
 c++之const
 ==========
 
@@ -13,7 +13,7 @@ c++之const
 
 -  加上const后,变量变为常量,不可修改
 
-::
+.. code:: cpp
 
     const int x = 3; //常量
 
@@ -25,7 +25,7 @@ c++之const
 2.1 对比等价
 ~~~~~~~~~~~~
 
-::
+.. code:: cpp
 
     1.const int *p = NULL;
     2.int const *p = NULL;
@@ -40,7 +40,7 @@ c++之const
 
 -  第一种
 
-::
+.. code:: cpp
 
     int x = 3;
     const int *p = &x;
@@ -52,7 +52,7 @@ c++之const
 
 -  第二种
 
-::
+.. code:: cpp
 
     int x = 3;
     int * const p = &x;
@@ -64,7 +64,7 @@ c++之const
 
 -  第三种
 
-::
+.. code:: cpp
 
     const int x = 3;
     const int * const p = &x;
@@ -76,7 +76,7 @@ c++之const
 3.const与引用
 -------------
 
-::
+.. code:: cpp
 
     int x = 3;
     const int &y = x;
@@ -91,7 +91,7 @@ c++之const
 4.1 大权限操纵小权限
 ~~~~~~~~~~~~~~~~~~~~
 
-::
+.. code:: cpp
 
     const int x = 3;
     int *y = &x;
@@ -106,7 +106,7 @@ x不可变,权限小,只能读,而指针y指向了x的地址,y的权限很大,�
 4.2 小权限操纵大权限
 ~~~~~~~~~~~~~~~~~~~~
 
-::
+.. code:: cpp
 
     int x = 3;
     const int *y = x;
