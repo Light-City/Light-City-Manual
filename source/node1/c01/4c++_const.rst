@@ -1,6 +1,10 @@
 .. figure:: http://p20tr36iw.bkt.clouddn.com/c++_const.png
    :alt: 
+   
+.. raw:: html
 
+   <!--more-->
+   
 c++之const
 ==========
 
